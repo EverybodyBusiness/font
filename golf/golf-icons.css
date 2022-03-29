@@ -1,0 +1,73 @@
+/*
+    Flaticon icon font: Flaticon
+    Creation date: 19/02/2016 14:45
+    */
+
+@font-face {
+    font-family: "golf";
+    src: url("golf_icons.eot");
+    src: url("golf_icons.eot?#iefix") format("embedded-opentype"),
+    url("golf_icons.woff") format("woff"),
+    url("golf_icons.ttf") format("truetype"),
+    url("golf_icons.svg#spa") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: "golf";
+        src: url("./golf_icons.svg#spa") format("svg");
+    }
+}
+
+[class^="elb-golf-"] {
+    position: relative;
+    top: 1px;
+    font-family: 'golf';
+    font-style: normal;
+}
+
+.elb-golf-icon-01::before {
+    content: "t";
+}
+
+.elb-golf-icon-02::before {
+    content: "u";
+}
+
+.elb-golf-icon-03::before {
+    content: "5";
+}
+
+.elb-golf-icon-04::before {
+    content: "W";
+}
+
+.elb-golf-icon-05::before {
+    content: "x";
+}
+
+.elb-golf-icon-06::before {
+    content: "y";
+}
+
+.elb-golf-icon-07::before {
+    content: "z";
+}
+
+.elb-golf-icon-08::before {
+    content: "J";
+}
+
+.elb-golf-icon-09::before {
+    content: "R";
+}
+
+.elb-golf-icon-10::before {
+    content: "S";
+}
+
+.elb-golf-icon-11::before {
+    content: "B";
+}

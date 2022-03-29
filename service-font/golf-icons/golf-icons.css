@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'golf';
+  src: url('golf-icons.eot');
+  src: url('golf-icons.eot') format('embedded-opentype'),
+       url('golf-icons.woff2') format('woff2'),
+       url('golf-icons.woff') format('woff'),
+       url('golf-icons.ttf') format('truetype'),
+       url('golf-icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'golf';
+    src: url('../font/golf.svg?82392989#golf') format('svg');
+  }
+}
+*/
+[class^="elb-golf-"]:before, [class*="elb-golf-"]:before {
+  font-family: "golf";
+  font-style: normal;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.elb-golf-icon-01:before { content: '\e800'; } /* '' */
+.elb-golf-icon-02:before { content: '\e801'; } /* '' */
+.elb-golf-icon-03:before { content: '\e802'; } /* '' */

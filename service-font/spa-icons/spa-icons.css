@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'spa';
+  src: url('spa-icons.eot');
+  src: url('spa-icons.eot') format('embedded-opentype'),
+       url('spa-icons.woff2') format('woff2'),
+       url('spa-icons.woff') format('woff'),
+       url('spa-icons.ttf') format('truetype'),
+       url('spa-icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?30258127#fontello') format('svg');
+  }
+}
+*/
+[class^="spa-icon-"]:before, [class*=" spa-icon-"]:before {
+  font-family: "spa";
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+.elb-spa-icon-01:before { content: '\f129'; } /* '' */
+.elb-spa-icon-02:before { content: '\f140'; } /* '' */
+.elb-spa-icon-03:before { content: '\f163'; } /* '' */
+.elb-spa-icon-04:before { content: '\f126'; } /* '' */
